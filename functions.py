@@ -1,6 +1,5 @@
 FILEPATH= 'Files/todos.txt'
 
-
 def get_todos(filep=FILEPATH):
     """Read a text file and open it """
     with open(filep, 'r') as filel:
